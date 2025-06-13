@@ -1,0 +1,19 @@
+name: AxoSpawnCore
+version: 1.0-SNAPSHOT
+main: me.twojnick.axospawncore.AxoSpawnCore
+api-version: 1.20
+author: AxoPL777
+
+commands:
+  spawn:
+    description: Teleportuje gracza na spawn po odliczaniu.
+    usage: /spawn
+  setspawn:
+    description: Ustawia lokalizację spawnu (tylko dla adminów).
+    usage: /setspawn
+    permission: axospawncore.setspawn
+
+permissions:
+  axospawncore.setspawn:
+    description: Pozwala na ustawienie spawnu.
+    default: op
